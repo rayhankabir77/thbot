@@ -3,7 +3,7 @@ export default {
     // শুধু POST রিকোয়েস্ট (টেলিগ্রাম মেসেজ) হ্যান্ডেল করবে
     if (request.method === "POST") {
       try {
-        const botToken = "7685989411:AAFiSuv_whUqqyyeZ_MroXJVGESWpLc7fOU";
+        const botToken = "8871803641:AAFsAkyh7Vq_UgC2HCSnVoUB9Dj3CpvxnvA";
         const update = await request.json();
 
         if (update.message) {
